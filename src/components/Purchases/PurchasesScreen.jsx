@@ -2,6 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import getConfig from '../../utils/getConfig'
 import PurchasesCard from './PurchasesCard'
+import './styles/purchases.css'
 
 const PurchasesScreen = () => {
 
@@ -13,8 +14,6 @@ const PurchasesScreen = () => {
       .then(res => setPurchases(res.data.data.purchases))
       .catch(err => console.log(err))
   }, [])
-
-  console.log(purchases)
 
   return (
     <div className='purchases'>

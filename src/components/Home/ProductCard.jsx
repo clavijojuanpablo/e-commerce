@@ -44,6 +44,7 @@ const ProductCard = ({ product }) => {
           alt=""
         />
       </header>
+      
       <div className='card-product__body'>
         <h2 className='card-product__title'>{product.title}</h2>
         <div className='card-product__price-container'>
