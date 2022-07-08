@@ -1,0 +1,97 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+
+.login__form {
+  width: 400px;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login__test {
+  width: 100%;
+  padding: 12px;
+  background-color: #D8F5FD;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.TestInfo{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.TestInfo p{
+  text-align: start;
+}
+
+
+.login__item{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.login__item input{
+  height: 32px;
+  border: 1px solid #0003;
+}
+
+.login__form button{
+  background-color: var(--secondary-color);
+  color: white;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  margin-top: -15px;
+}
+.login__form span{
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+
+.UserLogged{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;   
+  gap: 16px;
+}
+
+.UserLogged h2{
+  font-size: 36px;
+}
+
+.UserLogged i{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 2px 2px #0001;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  padding: 50px;
+  font-size: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.UserLogged p{
+  cursor: pointer;
+  color: var(--secondary-color);
+  font-size: 18px;
+}
