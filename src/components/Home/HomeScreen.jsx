@@ -26,7 +26,13 @@ const HomeScreen = () => {
 
 
       <div className="LeftBar">
-        <h2>Filter Category</h2>
+        <h2>Category</h2>
+        <ul>
+          <li>Smart TV</li>
+          <li>Computers</li>
+          <li>Smartphones</li>
+          <li>Kitchen</li>
+        </ul>
       </div>
 
       <div className="RightBar">
